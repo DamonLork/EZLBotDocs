@@ -1,0 +1,65 @@
+/* EZL STYLE GUIDE
+*  light = rgba(227, 227, 227, 1)
+*  medium = rgba(158, 158, 158, 1)
+*  medium-dark = rgba(46, 46, 46, 1) = extra color used for tables
+*  dark = rgba(35, 35, 35, 1)
+*  orange = rgba(240, 82, 19, 1)
+*/
+
+
+/* ******************************* TABLES ******************************* */
+
+.horiz-scroll {
+  overflow-x: auto;
+}
+
+table {
+  border-collapse: collapse;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+table thead, table tbody {
+  border: none;
+}
+
+table thead th {
+  text-align: center;
+  background-color: rgba(227, 227, 227, 1) !important;
+}
+
+tbody tr:nth-child(even) {
+  background-color: rgba(35, 35, 35, 1) !important;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: rgba(46, 46, 46, 1);
+}
+
+tbody tr:hover {
+  background-color: rgba(227, 227, 227, 1) !important;
+}
+
+td a {
+  color: rgba(158, 158, 158, 1);
+}
+
+td a:hover,
+td a:focus {
+  color: rgba(240, 82, 19, 1);
+}
+
+td a.button {
+  margin: 0 auto;
+}
+
+/******************************** LINKS ********************************/
+
+a {
+  color: rgba(240, 82, 19, 1);
+}
+
+a:hover,
+a:focus {
+  color: rgba(227, 227, 227, 1);
+}

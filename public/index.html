@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+
+    <title>EZLBot Documentation</title>
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/stroke.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/EZL.css">
+    <link rel="stylesheet" type="text/css" href="js/syntax-highlighter/styles/shCore.css" media="all">
+    <link rel="stylesheet" type="text/css" href="js/syntax-highlighter/styles/shThemeRDark.css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+<!-- Display the countdown timer in an element -->
+
+
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <div class="container">
+
+            <section id="top" class="section docs-heading">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="big-title text-center" >
+                            <h1>EZLBot Documentation</h1>
+                            <p class="lead">Number of Servers: 769</p>
+                            <p id="demo"></p>
+                        </div>
+                        <!-- end title -->
+                    </div>
+                    <!-- end 12 -->
+                </div>
+                <!-- end row -->
+
+                <hr>
+
+            </section>
+            <!-- end section -->
+
+            <div class="row">
+
+                <div class="col-md-3">
+                    <nav class="docs-sidebar" data-spy="affix" data-offset-top="300" data-offset-bottom="200" role="navigation">
+                        <ul class="nav">
+                            <li><a href="#line1">Getting Started</a></li>
+                            <li><a href="#line2">Authors & Contributers</a></li>
+                            <li><a href="#line3">How To Invite</a></li>
+                            <li><a href="#line4">Features</a>
+                                <ul class="nav">
+                                    <li><a href="#line4_1">General Commands</a></li>
+                                    <li><a href="#line4_2">Vainglory</a></li>
+                                        <ul class="nav">
+                                            <li><a href="#line4_2.1">Statistics</a></li>
+                                            <li><a href="#line4_2.2">MatchMaker</a></li>
+                                        </ul>
+                                </ul>
+                            </li>
+                            <li><a href="#line5">Promotions/Advertisements</a></li>
+                            <li><a href="#line6">Donate</a></li>     
+                            <!--
+                            <li><a href="#line6">Change Log</a>
+                                <ul class="nav">
+                                    <li><a href="#line7_1">Update 1.0</a></li>
+                                </ul>
+                            </li>
+                            -->
+                        </ul>
+                    </nav >
+                </div>
+                <div class="col-md-9">
+                    <section class="welcome">
+
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h2 class="dark-text">Introduction<hr></h2>
+                                <div class="row">
+
+                                    <div class="col-md-12 full">
+                                        <div class="intro1">
+                                            <ul>
+                                                <li><strong>EZLBot : </strong>The Bot For Everyone!</li>
+                                                <li><strong>Item Version : </strong> v 1.0</li>
+                                                <li><strong>Support : </strong> <a href="https://discord.me/EZLBot" target="_blank">Discord Server</a></li>
+                                            </ul>
+                                        </div>
+
+                                        <hr>
+                                        <div>
+                                            <p>First of all, thank you so much for using EZLBot. We love all our users and built it for the users in mind.
+                                                <strong>You are awesome!</strong>
+                                            </p>
+
+                                            <p>This documentation is to help you regarding each step of customization and using the bot properly. Please go through the documentation carefully to understand how to use it correctly.</p>
+
+                                            <h4>Requirements</h4>
+                                            <p>You will need the following sofwares to use the bot.</p>
+                                            <ol>
+                                                <li>Discord</li>
+                                                <li>A living human body</li>
+                                
+                                            </ol>
+                                            <div class="intro2 clearfix">
+                                                <p><i class="fa fa-exclamation-triangle"></i> If you wish to help contribute to this documentation, report a bug, suggest a feature or idea please leave an issue at <a href="https://gitlab.com/Skillz4Killz/EZLBot">here</a>.
+                                                </p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-- end row -->
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="line1" class="section">
+
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h2 class="dark-text">Getting Started <a href="#top">#back to top</a><hr></h2>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p>From EZL comes the Bot for every gamers needs, introducing the one, the only EZLBot. 
+                                <br>
+                                <br>
+                                If you want to help develop the bot, please contact Skillz4Killz at <a href="https://discord.me/EZLBot">Support Server</a>. 
+                                <br>
+                                <br>
+
+                                If you wish to help contribute to the bot or the documentation, please make a forked copy of this repo by clicking the Fork button at the top right of this page. A fork is your copy of this repo. If you want to make any changes, you can change on the GitLab Editor itself and make them on your copy and then click Pull Request. When you send a pull request the Bot Developers review your work and add it in if there is no errors otherwise they may send it back saying there is an error and something to fix.
+
+                                <br>
+                                <br>
+
+                                If you wish to work on your local machines simply make a fork of the GitHub Repo > Open Terminal > Move to the folder you want to save the files using cd filepath (example cd desktop) > type in Terminal: git clone URL
+
+                                <br>
+                                <br>
+
+                                Get the URL from your repo OR replace your name where it says “Skillz4Killz” https://gitlab.com/Skillz4Killz/EZLBot.git
+
+                                <br>
+                                <br>
+
+                                Once the files are cloned onto your machine you can change them as you wish. Once ready to send them back go into terminal and type
+
+                                <br>
+                                <br>
+                                
+                                git add . git commit -m “explain what u did in these quotation marks for example, added the report feature which is missing in the documentation what is wrong with you skillz?” git push
+
+                                <br>
+                                <br>
+                                
+                                Now you go back to your repo on github and make a pull request.</p>
+
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                    </section>
+                    <!-- end section -->
+
+                    <section id="line2" class="section">
+
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h2 class="dark-text">Authors & Contributers <a href="#top">#back to top</a><hr></h2>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <h4>Authors</h4>
+
+                        <hr>
+
+                        <p>Skillz4Killz: <a href="https://twitter.com/IGNSkillz4Killz" class="btn btn-primary">Twitter</a></p>
+                        <p>ClarkthyLord</p>
+                        <p>SpiesWithin</p>
+                        <p>Kashz</p>
+                        <p>physiX</p>
+
+                        <h4>Contributers</h4>
+
+                        <hr>
+
+                        <p>Will you be the first?</p>
+                        
+
+                    </section>
+                    <!-- end section -->
+
+                    <section id="line3" class="section">
+
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h2 class="dark-text">How to Invite <a href="#top">#back to top</a><hr></h2>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <h4>Discord</h4>
+
+                        <p> <strong>One Click Invite and Setup</strong> 
+                        <br>
+                        For a one step quick invite EZLBot to your server, please click <a href="http://ezlgg.com/bot" class="btn btn-primary">invite</a>.
+                        <br>
+                        <strong>Customized Invite</strong>
+                        <br>
+                        If you want to customize the invite for EZLBot to your server, please follow the instructions below. Keep in mind using this method may prevent you from being able to use some of the features of EZLBot, and may not allow automatic updates to the bot.
+                        <br>
+                        Go to <a href="https://discordapi.com/permissions.html">this link</a> to invite the bot with permissions you pick and choose to give. Go to the link and get the number you wish for and use the link to invite the bot with it.
+                        <br>
+
+                        Replace the number at the end of this url(https://discordapp.com/oauth2/authorize?client_id=284430926648442890&scope=bot&permissions=YOURNUMBERHERE)</p>
+
+                        <hr>
+
+                        <h4>Twitch Invite</h4>
+
+                        <p>Coming Soon To A Twitch Stream Near You!</p>
+
+                        <hr>
+
+                        <h4>YouTube Invite</h4>
+
+                        <p>Coming Soon To A YouTube Stream Near You!</p>
+
+                        <hr>
+
+                        <h4>FaceBook Invite</h4>
+
+                        <p>Coming Soon To A FaceBook Stream Near You!</p>
+
+                        <hr>
+
+                        <h4>Mobcrush Invite</h4>
+
+                        <p>Coming Soon To A Mobcrush Stream Near You!</p>
+
+                    
+
+                    </section>
+                    <!-- end section -->
+
+                   
+
+                    <section id="line4" class="section">
+
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h2 class="dark-text">Features <a href="#top">#back to top</a><hr></h2>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="images/ezl-test.png" alt="" class="img-responsive img-thumbnail">
+                            </div>
+
+                            <div class="col-md-8">
+                                <h4 id="line4_1">General Commands - <a href="#top">#back to top</a></h4>
+                                    <p>Here you will find any and all general bot commands.</p>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <div class="row">
+                            
+                            <div class="col-md-12">
+
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Command</th>
+                                            <th>Description</th>
+                                            <th>Example</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody> 
+                                        <tr>
+                                            <td>$about</td>
+                                            <td>Shows a small description about the bot and gives information about the bots status.</td>
+                                            <td>$about</td>
+                                        </tr>
+                                        <tr>
+                                            <td>$invite</td>
+                                            <td>Gives you this link to invite the bot with ALL permissions.</td>
+                                            <td>$invite</td>
+                                        </tr>
+                                        <tr>
+                                            <td>$prefix</td>
+                                            <td>Select whatever prefix you would like to use on your server for the bot.</td>
+                                            <td>$prefix !</td>
+                                        </tr>
+                                        <tr>
+                                            <td>$report</td>
+                                            <td>Type in a message you would like to send to the developers. Please keep this only to reports on errors, bugs, problem you encounter such as someone else authenticates your account, someone else takes your guild name etc…</td>
+                                            <td>$report message</td>
+                                        </tr>
+                                        <!-- Extra Row
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        -->
+                                    </tbody>
+                                </table>
+
+                                <h4>Paid Early Access Feature</h4>
+
+                                <p>For those that wish to have early access to all the features while we are developing them and those that support us, you can get early access by having the private EZLTestingBot be added to your servers. As supporters you would also be given direct contact with the developers so that you can not only provide feedback if you choose but make request for additions that you require for your personal servers. For more information please contact Skillz4Killz at <a href="https://discord.me/EZLBot">Discord Support Server</a>.</p>
+
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="images/VG.png" alt="" class="img-responsive img-thumbnail">
+                            </div>
+
+                            <div class="col-md-8">
+                                <h4 id="line4_2">Vainglory - <a href="#top">#back to top</a></h4>
+                                    <p>Here you will find any and all commands related to Vainglory.</p>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                        <div class="row">
+                            
+                            <div class="col-md-12">
+                                <h4 id="line4_2.1">Statistics - <a href="#top">#back to top</a></h4>
+                                
+                                <p>Here you will find any and all commands related to Vainglory Statistics.</p>
+
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Command</th>
+                                            <th>Description</th>
+                                            <th>Example</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>$saveVG IGN Region</td>
+                                            <td>Allows you to save your Vainglory IGN and region so it will know who you are and you can use any command on any server the bot is in.</td>
+                                            <td>$saveVG Skillz4Killz na</td>
+                                        </tr>
+                                        <tr>
+                                            <td>$stats</td>
+                                            <td>Shows the stats of a player by default for last 31 days in all game modes. Filter to the game mode you would like. NA region is set as default. Why? Because NA > ALL hehe. Real reason so Spies never has to type his region :). You can search any players command but if you have used saveVG or verify commands properly you no longer are required to type a IGN or region when using this command to search for yourself on any server. </td>
+                                            <td>$stats SpiesWithin na</td>
+                                        </tr>
+                                        <tr>
+                                            <td>$matches</td>
+                                            <td>Shows the last 50 matches of a player. Provides 3 reactions which you can click to view other matches. The middle reaction will show detailed telemetry of how the match played out minute by minute. Be careful use this feature too much and it will time you out as it requires a lot of power.</td>
+                                            <td>$matches ClarkthyLord</td>
+                                        </tr>
+                                        <tr>
+                                            <td>$latest</td>
+                                            <td>Shows a detailed version of your latest match.</td>
+                                            <td>$latest physix eu</td>
+                                        </tr>
+                                        <tr>
+                                            <td>$player</td>
+                                            <td>Shows the lifetime profile of a player.</td>
+                                            <td>$profile Kashz NA</td>
+                                        </tr>
+                                        <!-- NOT READY
+                                        <tr>
+                                            <td>$compare IGN region IGN region</td>
+                                            <td>Compare 2 IGNs</td>
+                                            <td>$compare Skillz4Killz na L3oN eu</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>$sample region</td>
+                                            <td>Get the average statistics shown to you per region.</td>
+                                            <td>$sample na</td>
+                                        </tr>
+                                        -->
+                                        <tr>
+                                            <td>$verify IGN region</td>
+                                            <td>Bot will send you a DM explaining the process of how to authenticate your account permanently.</td>
+                                            <td>$verify Skillz4Killz na</td>
+                                        </tr>  
+                                        <!--Extra Row                                                               
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        -->
+                                    </tbody>
+                                </table>
+
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <div class="row">
+                            
+                            <div class="col-md-12">
+                                <h4 id="line4_2.2">MatchMaker - <a href="#top">#back to top</a></h4>
+                                
+                                <p>Here you will find any and all commands related to Vainglory MatchMaker.</p>
+
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Command</th>
+                                            <th>Description</th>
+                                            <th>Example</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>$profile</td>
+                                            <td>Begins a series of question that you will respond to with the reactions, majority of questions have been automatically answered by you authenticating account. Without an account being authenticated, MatchMaker will not function. If you wish this can be done in DM to maintain privacy. Re-do the command to reset your profile.</td>
+                                            <td>$profile</td>
+                                        </tr>
+                                        <tr>
+                                            <td>$queue</td>
+                                            <td>Places you into the queue to find other players that match your requirements. The color on the embed will indicate how much you match. Yellow being the lowest to Red being the highest match. You will also see other players profiles but will not see their complete IGN. You can use the reactions to swipe left or right to find players in $queue that match you until you find the one you are looking for. Click the Green checkmark and it will send a message to the player in their discord notifying them with your info and an invite to the HH discord where you can meet for the first time in forever.</td>
+                                            <td>$queue</td>
+                                        </tr>
+                                        <tr>
+                                            <td>$cancel</td>
+                                            <td>Removes you from queue.</td>
+                                            <td>$cancel</td>
+                                        </tr>
+<!-- FIX KARMA COMMANDS
+                                        <tr>
+                                            <td>$karma</td>
+                                            <td>After playing with a player in queue, you can leave feedback on the player whether it is to give a thumbs up, down, or leave a message. EZLKarma will affect the MatchMaking of a player to help non-toxic players be matched much more. Be careful, too many reports of toxicity may lead to question your sanity and have the bot give a detailed check on your karma.</td>
+                                            <td>$karma</td>
+                                        </tr>
+                                        -->
+                                        <!-- Extra Row
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        -->
+                                    </tbody>
+                                </table>
+
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <hr>
+
+                    </section>
+                    <!-- end section -->
+
+                    <section id="line5" class="section">
+
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h2 class="dark-text">Promotions/Advertisements <a href="#top">#back to top</a><hr></h2>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="images/text_promotion.png" alt="" class="img-responsive img-thumbnail">
+                            </div>
+
+                            <div class="col-md-8">
+                                <h4 id="line5_1">Text Promotions - <a href="#top">#back to top</a></h4>
+                                    <p>“Will run a text campaign on our bot once every 4 hours for a week in all its servers! The promotion will run for 7 days, and reach every discord server of the EZLBot (currently 769 servers) to consumers who play the game VainGlory. With the ability to reach tens of thousands of gamers having your product, company, guild, team, organization, tourney or anything else promoted may be exactly what you needed! This promotion will also reach players internationally! All for the low price $24.99 for this exclusive offer!” Reserve yours now before the prices rise with others requesting the space.</p>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="images/photo_promotion.png" alt="" class="img-responsive img-thumbnail">
+                            </div>
+
+                            <div class="col-md-8">
+                                <h4 id="line5_1">Photo Promotions - <a href="#top">#back to top</a></h4>
+                                    <p>“Our design team will create a custom flier to be posted on our bot once every 4 hours for a week! This promotion will reach every discord server of the EZLBot (currently 769 servers) to consumers who play the game VainGlory. With the ability to reach tens of thousands of gamers having your product, company, guild, team, organization, tourney or anything else promoted may be exactly what you needed! You can run your campaign for as little as $49.99 of you provide your own image with dimensions of 250x151, or $74.99 if you let our team of experts design it for you!” Reserve yours now before the prices rise with others requesting the space.</p>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <div class="row">
+                        
+                            <div class="col-md-12">
+                                <h4 id="line5_1">Ad Free Plan - <a href="#top">#back to top</a></h4>
+                                    <p>If you wish to keep your server free of ads but still be able to help keep us supported please contact <a href="https://discord.me/EZLBot">Skillz4Killz</a> regarding having it removed.
+                                    <br>
+                                    <br>
+                                    <strong>6 Month Ad Free:</strong> $9.99
+                                    <br>
+                                    <strong>1 Year Ad Free:</strong> $14.99</p>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+
+
+                    </section>
+                    <!-- end section -->
+
+                    <section id="line6" class="section">
+
+                        <div class="row">
+                            <div class="col-md-12 left-align">
+                                <h2 class="dark-text">Donate <a href="#top">#back to top</a><hr></h2>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <h4>How To Donate</h4>
+
+                        <p>To donate please use this link: <a href="https://paypal.me/EZLOfficial" class="btn btn-primary">PayPal Donate Link</a> </p>
+
+                        <hr>                    
+
+                    </section>
+                    <!-- end section -->
+
+                    
+                </div>
+                <!-- // end .col -->
+
+            </div>
+            <!-- // end .row -->
+
+        </div>
+        <!-- // end container -->
+
+    </div>
+    <!-- end wrapper -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/retina.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+
+    <!-- CUSTOM PLUGINS -->
+    <script src="js/custom.js"></script>
+    <script src="js/main.js"></script>
+
+    <script src="js/syntax-highlighter/scripts/shCore.js"></script>
+    <script src="js/syntax-highlighter/scripts/shBrushXml.js"></script>
+    <script src="js/syntax-highlighter/scripts/shBrushCss.js"></script>
+    <script src="js/syntax-highlighter/scripts/shBrushJScript.js"></script>
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("April 9, 2017 14:30:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get todays date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = "Update in: " + days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is finished, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "UPDATED to Version 1.1 WOOT!";
+  }
+}, 1000);
+</script>
+</body>
+
+</html>

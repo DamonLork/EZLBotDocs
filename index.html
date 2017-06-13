@@ -41,7 +41,7 @@
                     <div class="col-md-12">
                         <div class="big-title text-center" >
                             <h1>EZLBot Documentation</h1>
-                            <p class="lead">Number of Servers: 1105</p>
+                            <p class="lead">Number of Servers: 1112</p>
                             <p id="demo"></p>
                         </div>
                         <!-- end title -->
@@ -379,6 +379,23 @@
                                             <td>Type in a message you would like to send to the developers. Please keep this only to reports on errors, bugs, problem you encounter such as someone else authenticates your account, someone else takes your guild name etc…</td>
                                             <td>$report message</td>
                                         </tr>
+                                        
+                                        <tr>
+                                        	<td>$lottery</td>
+                                        	<td>Checks for the available bot's lottry.</td>
+                                        	<td>$lottry</td>
+                                        </tr>
+                                        <tr>
+                                        	<td>$userInfo TAG</td>
+                                        	<td>Shows the user info relevent to the EZL Bot.</td>
+                                        	<td>$userInfo @NomiAteABurger#6600</td>
+                                        </tr>
+                                        <tr>
+                                        	<td>$serverInfo</td>
+                                        	<td>Info on the current server.</td>
+                                        	<td>$serverInfo</td>
+                                        </tr>
+                                        
                                         <tr>
                                         	<td>$help</td>
                                         	<td>Shows the list of commands used by the bot.</td>
@@ -461,7 +478,38 @@
                                             <td>Shows the lifetime profile of a player.</td>
                                             <td>$profile Kashz NA</td>
                                         </tr>
+
                                         <tr>
+                                        	<td>$compareUp IGN_1 IGN_2 region_1 region_2</td>
+                                        	<td>Compares two players from different regions.</td>
+                                        	<td>$compareUp ClarkthyLord AmethystCrow na eu</td>
+                                        </tr>
+                                        <tr>
+                                        	<td>$vlb IGN filter-1 filter-2 filter-3</td>
+                                        	<td>Fetch one of our leaderboard relating to Vainglory!</td>
+                                        	<td>$vlb Cheesecake2142 roam kills Assending</td>
+                                        </tr>
+                                            <td>$top top_element IGN region game_mode days</td>
+                                            <td>Fetch the top list of elements.</td>
+                                            <td>$top heroes xofunghoul sg any 20</td>
+                                        <tr>
+                                        <tr>
+                                        	<td>$compaerP IGNs region</td>
+                                        	<td>Compares multiple Vg players from the same region</td>
+                                        	<td>$compareP pukx ToriMisaka HamtheGreat sg</td>
+                                        </tr>
+                                        <tr>
+                                        	<td>$compareS IGN_1 IGN_2 region_1 region_2</td>
+                                        	<td>Compare two players from Vainglory who are in different region.</td>
+                                        	<td>$compareS ExeburentWitness KermitpmcNA eu na</td>
+                                        </tr>
+                                        <tr>
+                                        	<td>$telemetry match_id match_region IGN</td>
+                                        	<td>Show a match telemetry from Vainglory</td>
+                                        	<td>$match 6d6c3d78-2270-11e7-ba8d-0242ac110008 na</td>
+                                        </tr>
+                                        	
+                                        </tr>
                                         	<td>$leaderboards</td>
                                         	<td>Shows all of the leaderboards.</td>
                                         	<td>$leaderboards</td>
@@ -501,6 +549,7 @@
                                         	<td>Sends a hero's charm</td>
                                         	<td>$charm Vox</td>
                                         </tr>
+                                        
 
                                         <!-- NOT READY
                                         <tr>
@@ -515,6 +564,7 @@
                                             <td>$sample na</td>
                                         </tr>
                                         -->
+                                        
                                         <tr>
                                             <td>$verify IGN region</td>
                                             <td>Bot will send you a DM explaining the process of how to authenticate your account permanently.</td>
@@ -525,6 +575,7 @@
                                         	<td> Checks if your vainglory account has been verified.</td>
                                         	<td>$check</td>
                                         </tr>
+                                        
                                         
                                         <!--Extra Row                                                               
                                         <tr>
@@ -541,6 +592,7 @@
                         </div>
                         <!-- end row -->
 
+                        
                         <div class="row">
                             
                             <div class="col-md-12">
@@ -614,6 +666,8 @@
                                         	<td>Shows the blocked toxic users.</td>
                                         	<td>$blocked</td>
                                         </tr>
+                                        
+
                                         <!-- FIX KARMA COMMANDS
                                         <tr>
                                             <td>$karma</td>
@@ -770,7 +824,7 @@ var x = setInterval(function() {
   // If the count down is finished, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "UPDATED to Version 1.1 WOOT!";
+    document.getElementById("demo").innerHTML = "UPDATED to Version 3.0 WOOT!";
   }
 }, 1000);
 </script>
